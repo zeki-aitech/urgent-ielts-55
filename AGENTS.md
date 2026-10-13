@@ -9,9 +9,10 @@ This repository supports a 15-day IELTS Academic preparation plan targeting an o
 The repository contains Markdown study materials and has no application code or automated tests. Use the following structure when adding content; create directories only as needed:
 
 - `plan/`: the 15-day schedule and daily checklists.
-- `practice/day-01/` through `practice/day-15/`: exercises, written responses, and feedback.
+- `practice/YYYY-MM-DD/`: exercises, written responses, and feedback grouped by the actual practice date (Korea Standard Time).
 - `notes/`: skill-specific strategies, vocabulary, and recurring mistakes.
 - `progress/`: practice scores, timing, and review logs.
+- `materials/`: local books, PDFs, and audio; excluded from Git.
 - `assets/`: original or authorized supporting images and recordings.
 
 Keep this guide in the repository root. Add a `README.md` when study materials need an entry point.
@@ -29,7 +30,7 @@ Preview Markdown before submitting changes. If code is introduced, document its 
 
 ## Style & Naming Conventions
 
-Use Markdown for plans, notes, and feedback. Use descriptive headings, short paragraphs, and actionable checklists. Use lowercase, hyphenated filenames, such as `writing-task-2.md`, and zero-padded day directories. Use two spaces for nested list indentation. No formatter or linter is currently configured.
+Use Markdown for plans, notes, and feedback. Use descriptive headings, short paragraphs, and actionable checklists. Use lowercase, hyphenated filenames, such as `writing-task-2.md`, and ISO date directories, such as `practice/2026-10-12/`. Record study-day numbers inside files when useful. Use two spaces for nested list indentation. No formatter or linter is currently configured.
 
 Communicate with the learner in Vietnamese in chat. Write all repository content in English, including documentation, instructions, feedback, headings, and comments.
 
